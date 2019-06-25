@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('login/apple', 'Auth\LoginController@redirectToProvider');
+Route::get('login/apple/callback', 'Auth\LoginController@handleProviderCallback');
