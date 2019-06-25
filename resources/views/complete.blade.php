@@ -48,11 +48,6 @@
                 font-size: 40px;
             }
 
-            .links > a {
-                color: #636b6f;
-                font-size: 13px;
-            }
-
             .m-b-md {
                 margin-bottom: 30px;
             }
@@ -62,16 +57,20 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    Sign in with Apple Example by Laravel
+                    Authentication successfull
                 </div>
 
                 <div class="m-b-md">
-                    <a href="{{ action('Auth\\LoginController@redirectToProvider') }}"><img src="{{ asset('/img/apple-id-sign-in-with_2x.png') }}" width="212"></a>
+                    Response
+                    <pre><code>
+                        {{ print_r($user, true) }}
+                    </code></pre>
                 </div>
 
                 <div class="links">
                     Created with <a href="https://laravel.com" target="_blank">Laravel</a> and <a href="https://packagist.org/packages/seoda/socialite-apple" target="_blank">Apple OAuth2 Provider for Laravel Socialite</a>
                 </div>
+
             </div>
         </div>
     </body>
