@@ -51,6 +51,16 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            pre {
+                text-align: left;
+                width: 800px;
+                overflow-x: scroll;
+                background: #eee;
+                border: 1px solid #ddd;
+                padding: 10px;
+                font-size: 11px;
+            }
         </style>
     </head>
     <body>
@@ -62,9 +72,7 @@
 
                 <div class="m-b-md">
                     Response
-                    <pre><code>
-                        {{ print_r($user, true) }}
-                    </code></pre>
+                    <pre><code>{{ print_r($user, true) }}</code></pre>
                 </div>
 
                 <div class="links">
