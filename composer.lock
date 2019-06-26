@@ -1806,16 +1806,16 @@
         },
         {
             "name": "seoda/socialite-apple",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/seoda/socialite-apple.git",
-                "reference": "9280a0d2238db57de3306f2c57fc9fc581fa28ca"
+                "reference": "b14514e8ee590202f8289753d945442d5519857d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/seoda/socialite-apple/zipball/9280a0d2238db57de3306f2c57fc9fc581fa28ca",
-                "reference": "9280a0d2238db57de3306f2c57fc9fc581fa28ca",
+                "url": "https://api.github.com/repos/seoda/socialite-apple/zipball/b14514e8ee590202f8289753d945442d5519857d",
+                "reference": "b14514e8ee590202f8289753d945442d5519857d",
                 "shasum": ""
             },
             "require": {
@@ -1853,7 +1853,7 @@
                 "oauth2",
                 "socialite"
             ],
-            "time": "2019-06-25T11:48:15+00:00"
+            "time": "2019-06-26T02:20:40+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
